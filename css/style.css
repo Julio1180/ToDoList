@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#Arriba{
+    width: 50%;
+    height: 250px;
+    border: 3px solid rgb(7, 7, 7);
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    background-image: url(https://image.shutterstock.com/image-vector/checkered-pattern-seamless-white-gray-260nw-594651797.jpg)
+   
+}
+
+#Arriba h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+ form select,button,input{
+    height: 30px;
+    font-size: 20px;
+}
+
+#Abajo{
+    width: 50%;
+    height: 250px;
+    border: 3px solid rgb(7, 7, 7);
+    margin: 20px auto;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    background-image: url(https://image.shutterstock.com/image-vector/checkered-pattern-seamless-white-gray-260nw-594651797.jpg)  
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-top:10px;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+.flex button{
+    margin-left:20px
+}
